@@ -61,9 +61,25 @@ def prepare_features(df):
     # Minimal cleaning: drop columns that are IDs or almost-unique
     df = df.copy()
     # Standard IBM dataset column for target: 'Attrition' (Yes/No)
-    if 'Attrition' not in df.columns:
-        st.error("Target column 'Attrition' not found in dataset. Please provide a dataset with 'Attrition' column.")
-        st.stop()
+    # Detect the target column automatically
+possible_targets = ["Attrition", "attrition", "left", "Left", "employee_left", "EmployeeLeft", "Attrition_Flag"]
+target_col = None
+for col in df.columns:
+    if col.strip() in possible_targets:
+        target_col = col
+        break
+
+if target_col is None:
+    st.error(
+        "❌ Could not find target column. Please ensure your dataset has one of these columns: "
+        "`Attrition`, `left`, `Attrition_Flag`, or similar."
+    )
+    st.stop()
+
+st.sidebar.success(f"Detected target column: **{target_col}**")
+
+# Convert target to binary 1/0
+y = df[target_col].apply(lambda x: 1 if str(x).strip().lower() in ['yes', '1', 'true', 'left'] else 0)
 
     # Example set of features to use — adaptable to dataset columns available
     numeric_features = [
