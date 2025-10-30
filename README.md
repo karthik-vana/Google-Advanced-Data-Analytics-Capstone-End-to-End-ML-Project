@@ -1,7 +1,8 @@
 # 🧠 Google Advanced Data Analytics Capstone – End-to-End ML Project  
 ### 🚀 Employee Attrition Prediction | Machine Learning | Streamlit Deployment  
 
-![Google Data Analytics Certificate Banner](Google%20Data%20Analytics%20Certificate%20Graduate-banner.png)
+![Google Data analytics_capstone banner](Google%20Data%20Analytics%20Certificate%20Graduate-banner.png)
+![Google Data analytics_capstone certificate](coursera_google_cert.png)
 
 ---
 
