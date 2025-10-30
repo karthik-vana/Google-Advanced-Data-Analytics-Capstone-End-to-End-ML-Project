@@ -449,12 +449,13 @@ st.sidebar.info(
     "It supports both Random Forest and Logistic Regression models."
 )
 
-# -- Footer --
+# --- Footer ---
+# --- Footer ---
 st.markdown("""
---
+---
 ✅ Created by **Vana Karthik**  
 🎓 [Verified Google Capstone Certificate](https://coursera.org/verify/Z9F0WG7HRN9W)  
 🔗 [LinkedIn](https://www.linkedin.com/in/karthik-vana/)  
 📘 Repository: [GitHub](https://github.com/karthik-vana/Google-Advanced-Data-Analytics-Capstone-End-to-End-ML-Project)
---
+---
 """)
