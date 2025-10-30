@@ -450,9 +450,11 @@ st.sidebar.info(
 )
 
 # --- Footer ---
-st.markdown("---")
 st.markdown("""
+---
 ✅ Created by **Vana Karthik**  
 🎓 [Verified Google Capstone Certificate](https://coursera.org/verify/Z9F0WG7HRN9W)  
-💻 Repository: [GitHub](https://github.com/<your-username>/Google-Advanced-Data-Analytics-Capstone)
+🔗 [LinkedIn](https://www.linkedin.com/in/karthik-vana/)  
+📘 Repository: [GitHub](https://github.com/karthik-vana/Google-Advanced-Data-Analytics-Capstone-End-to-End-ML-Project)
+---
 """)
