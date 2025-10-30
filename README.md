@@ -157,7 +157,7 @@ Google-Advanced-Data-Analytics-Capstone-End-to-End-ML-Project/
 ## 🤝 Connect With Me  
 
 👨‍💻 **Author:** Karthik Vana  
-📧 **Email:** [your.email@example.com]  
+📧 **Email:** [karthikvana236@gmail.com]  
 🌐 **LinkedIn:** [linkedin.com/in/karthik-vana](#)  
 📊 **Portfolio:** [Streamlit Project Link](https://app-advanced-data-analytics-capstone-end-to-end-ml-project-xcy.streamlit.app/)
 
