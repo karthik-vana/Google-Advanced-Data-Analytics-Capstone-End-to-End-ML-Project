@@ -6,9 +6,9 @@ import joblib
 
 st.set_page_config(page_title="Google Data Analytics Capstone", layout="wide")
 
-st.title("📊 Google Advanced Data Analytics Capstone Project")
+st.title(" Google Advanced Data Analytics Capstone Project")
 st.markdown("""
-### 🧠 End-to-End Machine Learning Project  
+###  End-to-End Machine Learning Project  
 This Streamlit dashboard showcases the final capstone project from the **Google Advanced Data Analytics Professional Certificate**.  
 It demonstrates **data cleaning, EDA, model training, and insights generation**.
 """)
