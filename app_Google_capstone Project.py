@@ -31,28 +31,31 @@ Train & predict Employee Attrition using Random Forest, Logistic Regression, and
 - The app trains models on load and provides an interactive prediction form.
 """
 )
-
-@st.cache_data(show_spinner=False)
 def load_data():
-    local_path = "data.csv"
-    if os.path.exists(local_path):
-        df = pd.read_csv(local_path)
-        st.sidebar.success("Loaded dataset from local file: data.csv")
-        return df
+    st.sidebar.header("Upload Dataset")
+    uploaded_file = st.sidebar.file_uploader("Upload your employee attrition dataset (CSV)", type=["csv"])
+
+    if uploaded_file is not None:
+        try:
+            df = pd.read_csv(uploaded_file)
+            st.sidebar.success("✅ Dataset uploaded successfully!")
+            return df
+        except Exception as e:
+            st.sidebar.error(f"Error reading file: {e}")
+            st.stop()
     else:
-        # Fallback: attempt to download a common IBM HR attrition dataset
+        # Fallback dataset (IBM HR Analytics)
         fallback_url = (
             "https://raw.githubusercontent.com/IBM/employee-attrition-aif360/master/data/WA_Fn-UseC_-HR-Employee-Attrition.csv"
         )
         try:
             df = pd.read_csv(fallback_url)
-            st.sidebar.info("No local data.csv found — downloaded fallback IBM HR Attrition dataset.")
+            st.sidebar.info("Using fallback IBM HR dataset (no file uploaded).")
             return df
         except Exception as e:
-            st.sidebar.error(
-                "No local data.csv and failed to download fallback dataset. Please upload data.csv to the app folder."
-            )
+            st.sidebar.error("❌ Failed to load fallback dataset. Please upload your CSV file.")
             st.stop()
+
 
 def prepare_features(df):
     # Minimal cleaning: drop columns that are IDs or almost-unique
