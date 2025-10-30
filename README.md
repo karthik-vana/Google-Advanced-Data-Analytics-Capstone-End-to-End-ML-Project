@@ -49,7 +49,7 @@ During EDA, I explored key employee attributes such as **satisfaction level, num
 ![Decision Tree](decision_tree.png)
 
 ### 🔹 Satisfaction vs Monthly Hours
-![Monthly Hours vs Satisfaction](monthlyevalution_score.png)
+![Monthly Hours vs Satisfaction](monthly_evalution_score.png)
 ### 🔹 Number of Projects vs Attrition
 ![Projects Distribution](monthly_no_of_projects.png)
 
