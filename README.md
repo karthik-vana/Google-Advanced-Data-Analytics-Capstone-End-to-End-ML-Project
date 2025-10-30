@@ -1,13 +1,20 @@
-# 🧠 Google Advanced Data Analytics Capstone – End-to-End ML Project  
-### 🚀 Employee Attrition Prediction | Machine Learning | Streamlit Deployment  
+# Google Advanced Data Analytics Capstone – End-to-End ML Project
+###  - Employee Attrition Prediction | Machine Learning | Streamlit Deployment  
+
+---
+
+### 🏅Google Advanced Data analytics_capstone certificate & banner awarded for this project
 
 ![Google Data analytics_capstone banner](Google%20Data%20Analytics%20Certificate%20Graduate-banner.png)
+
+---
+
 ![Google Data analytics_capstone certificate](coursera_google_cert.png)
 
 ---
 
-## 🌐 Live Demo  
-🎯 **Streamlit App:** [Click here to view the deployed project](https://app-advanced-data-analytics-capstone-end-to-end-ml-project-xcy.streamlit.app/)
+##  Live Demo  
+ **Streamlit App:** [Click here to view the deployed project](https://app-advanced-data-analytics-capstone-end-to-end-ml-project-xcy.streamlit.app/)
 
 ---
 
@@ -19,7 +26,7 @@ Through this project, I performed **data preprocessing, exploratory data analysi
 
 ---
 
-## 🧩 Project Objective  
+##  Project Objective  
 To help HR departments identify the key factors contributing to employee turnover and predict whether an employee is likely to leave or stay, enabling proactive retention strategies.
 
 ---
@@ -39,7 +46,7 @@ To help HR departments identify the key factors contributing to employee turnove
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)  
+##  Exploratory Data Analysis (EDA)  
 
 During EDA, I explored key employee attributes such as **satisfaction level, number of projects, average monthly hours, last evaluation, and salary**.  
 
@@ -56,7 +63,7 @@ During EDA, I explored key employee attributes such as **satisfaction level, num
 
 ---
 
-## 🧮 Machine Learning Workflow  
+##  Machine Learning Workflow  
 
 ```mermaid
 graph TD
@@ -70,7 +77,7 @@ F --> G[Streamlit Deployment]
 
 ---
 
-## 🔍 Model Insights  
+##  Model Insights  
 
 - Employees with **low satisfaction levels** and **high average monthly hours** tend to leave.  
 - **Salary** and **number of projects** strongly influence attrition.  
@@ -78,7 +85,7 @@ F --> G[Streamlit Deployment]
 
 ---
 
-## 📈 Model Performance  
+##  Model Performance  
 
 | Model | Accuracy | Precision | Recall | F1-score |
 |--------|-----------|-----------|--------|-----------|
@@ -91,20 +98,20 @@ F --> G[Streamlit Deployment]
 ## 🎥 App Demo  
 Watch the working application in action below 👇  
 
-📽️ [Demo Video – Streamlit App](capstone_project%20Recording.mp4)
+ [Demo Video – Streamlit App](capstone_project%20Recording.mp4)
 
 ---
 
 ## 🏅 Certification  
 
-### 📜 Google Advanced Data Analytics Capstone Certificate  
+###  Google Advanced Data Analytics Capstone Certificate  
 ![Google Certificate](Coursera_google%20cert%20Z9F0WG7HRN9W.pdf)
 
 🔗 **Verify Credential:** [Coursera Verification Link](https://coursera.org/verify/Z9F0WG7HRN9W)
 
 ---
 
-## 🧠 Key Learnings  
+##  Key Learnings  
 
 - Built end-to-end ML model pipeline (EDA → Training → Evaluation → Deployment).  
 - Improved data storytelling through insightful visualizations.  
@@ -130,7 +137,7 @@ Google-Advanced-Data-Analytics-Capstone-End-to-End-ML-Project/
 
 ---
 
-## 🧰 Installation & Usage  
+##  Installation & Usage  
 
 1. Clone this repository:
    ```bash
@@ -147,7 +154,7 @@ Google-Advanced-Data-Analytics-Capstone-End-to-End-ML-Project/
 
 ---
 
-## 🧩 Future Enhancements  
+##  Future Enhancements  
 
 - Implement deep learning models for comparison.  
 - Add feature importance visualization dashboard.  
@@ -157,10 +164,10 @@ Google-Advanced-Data-Analytics-Capstone-End-to-End-ML-Project/
 
 ## 🤝 Connect With Me  
 
-👨‍💻 **Author:** Karthik Vana  
-📧 **Email:** [karthikvana236@gmail.com]  
-🌐 **LinkedIn:** [linkedin.com/in/karthik-vana](#)  
-📊 **Portfolio:** [Streamlit Project Link](https://app-advanced-data-analytics-capstone-end-to-end-ml-project-xcy.streamlit.app/)
+ **Author:** Karthik Vana  
+ **Email:** [karthikvana236@gmail.com](karthikvana236@gmail.com)  
+ **LinkedIn:** [linkedin.com/in/karthik-vana](linkedin.com/in/karthik-vana)  
+ **Portfolio:** [Streamlit Project Link](https://app-advanced-data-analytics-capstone-end-to-end-ml-project-xcy.streamlit.app/)
 
 ---
 
