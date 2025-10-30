@@ -43,16 +43,16 @@ To help HR departments identify the key factors contributing to employee turnove
 During EDA, I explored key employee attributes such as **satisfaction level, number of projects, average monthly hours, last evaluation, and salary**.  
 
 ### 🔹 Heatmap (Feature Correlation)
-![Correlation Heatmap](capstone_project%20pics.png)
+![Correlation Heatmap](Heat map feature_correlation.png)
 
 ### 🔹 Decision Tree Visualization
-![Decision Tree](capstone_project%20pics%202.png)
+![Decision Tree](decision_tree.png)
 
 ### 🔹 Satisfaction vs Monthly Hours
-![Monthly Hours vs Satisfaction](capstone_project%20pics%203.png)
+![Monthly Hours vs Satisfaction](monthly evalution_score.png)
 
 ### 🔹 Number of Projects vs Attrition
-![Projects Distribution](capstone_project%20pics%204.png)
+![Projects Distribution](monthly no of projects.png)
 
 ---
 
